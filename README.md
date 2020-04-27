@@ -47,12 +47,7 @@ How to install?
    <img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/notificationAsk.png">
    
  Press Allow and you're done
----
 
-
-> Since it is a electron app it also has a [web-version](https://aayush9029.github.io/pomodoro-app/)
-*note notification might not work as expected*
-  
 ---
  *Currenty there are no electron dependencies in use.* 
  
