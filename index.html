@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Pomodoro</title>
+  </head>
+
+  <body id="body">
+    <div id="inputTimes">
+      <center>
+        <div id="input_label">
+          Working time (min)
+        </div>
+        <input
+          id="workingTime"
+          type="number"
+          placeholder="25"
+          value="15"
+        /><br />
+        <div id="input_label">
+          Relaxing time (min)
+        </div>
+        <input
+          id="restingTime"
+          type="number"
+          placeholder="15"
+          value="5"
+        /><br />
+
+        <button onclick="changeTime()">Done</button>
+      </center>
+    </div>
+
+    <div class="holder">
+      <div id="app"></div>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
