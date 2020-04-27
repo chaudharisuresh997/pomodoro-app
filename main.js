@@ -1,6 +1,5 @@
 // Modules to control application life and create native browser window
 const { app, BrowserWindow } = require("electron");
-const path = require("path");
 
 function createWindow() {
   // Create the browser window.
@@ -10,15 +9,14 @@ function createWindow() {
     titleBarStyle: "hiddenInset",
     webPreferences: {
       nodeIntegration: true,
-      preload: path.join(__dirname, "preload.js"),
     },
   });
 
   // and load the index.html of the app.
   mainWindow.loadFile("index.html");
 
-  // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  //  Open the DevTools.
+  // mainWindow.webContents.openDevTools();
 }
 
 // This method will be called when Electron has finished
@@ -38,6 +36,3 @@ app.on("activate", function () {
   // dock icon is clicked and there are no other windows open.
   if (BrowserWindow.getAllWindows().length === 0) createWindow();
 });
-
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.

@@ -1,3 +1,34 @@
+const fs = require("fs");
+const path = require("path");
+
+var datafile = path.join(__dirname, "data/appData.json");
+
+console.log("data======>");
+fs.readFile(datafile, (err, data) => {
+  let firstTime = JSON.parse(data);
+  let isOpened = firstTime.notified;
+
+  if (err) {
+    let appData = {
+      notified: false,
+    };
+    let data = JSON.stringify(appData);
+    fs.writeFileSync(datafile, data);
+  }
+
+  if (!isOpened) {
+    new Notification("This is a test Notification", {
+      body:
+        "Seems like the app was launched first time, Thanks for downloading",
+    });
+    let appData = {
+      notified: true,
+    };
+    let data = JSON.stringify(appData);
+    fs.writeFileSync(datafile, data);
+  }
+});
+
 let workTime = 45; // min
 let restTime = 25; // min
 
