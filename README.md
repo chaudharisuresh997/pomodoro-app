@@ -6,7 +6,17 @@ A minimal pomodoro application.
 
 
 ---
-Runs automatically once the app is opened.<img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/working.png">Changes Color based on tasks.<img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/workingLeft.png">
+
+
+Runs automatically once the app is opened. <br/>
+
+<img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/working.png"><br/>
+
+Changes Color based on tasks.<br/>
+
+<img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/workingLeft.png"><br/>
+
+
 ---
 System Audio and visual notification.<br/>
 <img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/notification.png">
@@ -34,7 +44,8 @@ How to install?
  
  Upon installation podomodoro will automatically ask you to enable notifcation *only on first app launch*
    <img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/notificationAsk.png">
-  Press Allow and you're done
+   
+ Press Allow and you're done
 
  
  
