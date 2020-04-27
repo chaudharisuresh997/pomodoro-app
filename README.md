@@ -8,18 +8,19 @@ A minimal pomodoro application.
 ---
 
 
-Runs automatically once the app is opened. <br/>
+* Runs automatically once the app is opened.
 
-<img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/working.png"><br/>
+* Changes Color based on tasks.
 
-Changes Color based on tasks.<br/>
+<img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/working.png" width="256px"> <img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/workingLeft.png" width="256px"><br/> <img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/resting.png" width="256px"> <img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/workingwarning.png" width="256px">
 
-<img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/workingLeft.png"><br/>
 
 
 ---
 System Audio and visual notification.<br/>
-<img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/notification.png">
+<img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/restnotification.png">
+<img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/worknotification.png">
+
 ---
 Press r to change time duration.<br/>
 <img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/changeTime.png">
@@ -39,22 +40,19 @@ How to install?
   - `npm instal` or `electron .`
   - `npm start`  or `electron .`
  
- 
+ ---
  ### MacOs notification Guide
  
  Upon installation podomodoro will automatically ask you to enable notifcation *only on first app launch*
    <img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/notificationAsk.png">
    
  Press Allow and you're done
-
- 
- 
 ---
-Since it is a electron app it also has a [web-version](https://aayush9029.github.io/pomodoro-app/)
 
+
+> Since it is a electron app it also has a [web-version](https://aayush9029.github.io/pomodoro-app/)
 *note notification might not work as expected*
   
-   
 ---
  *Currenty there are no electron dependencies in use.* 
  
