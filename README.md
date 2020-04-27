@@ -2,6 +2,7 @@
 A minimal pomodoro app made using electron
 
 Since it is a electron app it also has a [web-version](https://aayush9029.github.io/pomodoro-app/)
+*note notification might not work as well*
 
 ##  [![Mac OS version](https://img.shields.io/badge/MacOs-All-skyblue?style=flat-square)](https://www.apple.com/ca/watchos/watchos-6/)   [![electron](https://img.shields.io/badge/electron-8-brightred?style=flat-square)](https://www.python.org/) [![Windows](https://img.shields.io/badge/Windows-10-blue?style=flat-square)](https://www.microsoft.com/) [![Ubuntu](https://img.shields.io/badge/Ubuntu-18.04>-pink?style=flat-square)](https://www.apple.com/ios/)
 
