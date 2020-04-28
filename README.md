@@ -43,15 +43,16 @@ How to install?
  ---
  ### MacOs notification Guide
  
- Upon installation podomodoro will automatically ask you to enable notifcation *only on first app launch*
+ Upon installation podomodoro will automatically ask you to enable notification *only on first app launch*
    <img src="https://raw.githubusercontent.com/Aayush9029/pomodoro-app/gh-pages/assets/notificationAsk.png">
    
  Press Allow and you're done
- 
+
 ---
  *Currenty there are no electron dependencies in use.* 
  
  > *Supports fullscreen mode for maximum-focus*
- ---
+> Also has a [web application](https://aayush9029.github.io/pomodoro-app/) however notification functionality might be not as expected.
+---
 
   
