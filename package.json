@@ -23,7 +23,7 @@
   "author": "Aayush Pokharel",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^8.2.3"
+    "electron": "^8.2.4"
   },
   "bugs": {
     "url": "https://github.com/Aayush9029/pomodoro-app/issues"
